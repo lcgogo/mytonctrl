@@ -67,7 +67,7 @@ Error: expected str, bytes or os.PathLike object, not NoneType
 2. **創建符號連結** - 您也可以使用以下指令創建一個符號連結：
 
     ```bash
-    ln -s /opt/ton/var/ton
+    ln -s /opt/ton /var/ton
     ```
 此指令會創建一個名為 `/var/ton` 的連結，導向 `/opt/ton` 目錄。
 
